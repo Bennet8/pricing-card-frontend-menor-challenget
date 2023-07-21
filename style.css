@@ -1,0 +1,132 @@
+html{  
+    box-sizing: border-box;
+    font-size: 16px;
+} 
+
+body{
+    padding: 50px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+}
+
+h2,h4,p{
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+#card{
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 17px 0px rgba(0,0,0,0.35);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#div1{
+    width: 100%;
+    height: 45%;
+    background-color: #fff;
+}
+
+#divBottom{
+    width: 100%;
+    height: 55%;
+    color: #fff;
+}
+
+#div2{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #2ab2af;
+}
+
+
+#div3{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #2EBFBD;
+}
+
+#div2, #div3{
+    vertical-align: top;
+}
+
+#div1, #div2, #div3{
+    padding: 30px;
+}
+
+#div1 h2{
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+
+#div1 h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#div1 p{
+    color: #98a6bd;
+}
+
+button{
+    color: #fff;
+    background-color: #c0df34;
+    margin: 0px;
+    margin-top: 30px;
+    border: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 17px 0px rgba(0,0,0,0.35);
+}
+
+button:hover{
+    background-color: #A9C42D;
+    transform: scale(1.05);
+}
+
+
+#price {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#div2 h4{
+    margin-bottom: 15px;
+}
+
+#price-frequency, #price{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#price-frequency{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+#div2 p {
+    font-size: 0.9rem;
+}
+
+#div3 li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    
+}
